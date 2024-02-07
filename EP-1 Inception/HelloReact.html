@@ -7,8 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-     
-    <div id="root"></div>
+     <h1>React is only working on div id:root</h1>
+     <div id="root">
+         <h1>Hellooooooooooo</h1>
+         <h1>Hellooooooooooo</h1>
+         <h1>Hellooooooooooo</h1>
+         <!-- all these will be rendered in the beginning but as the browser executes tags line by line, 
+            but when the browser encounters the ReactDOM render method in App.js, the root element's content is replaced with the react element js obj passed to it-->
+        </div>
+        <h1>React is only working on div id:root</h1>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
