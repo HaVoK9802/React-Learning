@@ -1,0 +1,11 @@
+{
+  "name": "ep--2-ignition",
+  "version": "1.0.0",
+  "description": "igniting without npx. ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

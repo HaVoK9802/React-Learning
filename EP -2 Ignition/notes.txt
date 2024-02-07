@@ -1,0 +1,8 @@
+npm does not stand for node package management.
+npm does not have an abbrievation.
+
+npm is:
+-package manager for Node.js 
+-software Registry for open-source packages/modules of code for Node.js,Front-end apps, mobile apps. 
+
+we have to use npm init to add it in our project.
