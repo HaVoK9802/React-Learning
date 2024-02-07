@@ -6,3 +6,9 @@ npm is:
 -software Registry for open-source packages/modules of code for Node.js,Front-end apps, mobile apps. 
 
 we have to use npm init to add it in our project.
+
+package.json is a configuration for npm. Stores metadata like name, version, description, dependencies etc. 
+
+package-lock.json - stores the exact version of your dependencies(protected by hash code:integrity)
+                    so that the same versions of dependencies used in local can be used in production.
+
