@@ -16,4 +16,3 @@ package.json is a configuration for npm. Stores metadata like name, version, des
 
 package-lock.json - stores the exact version of your dependencies(protected by hash code:integrity)
                     so that the same versions of dependencies used in local can be used in production.
-

@@ -13,3 +13,8 @@ parcel: bundler
 
 Normal js browser scripts do not allow imports or exports, so type="module" will tell the browser that
 it is not a normal js script.
+
+
+npx parcel index.html - will create development build for us.
+
+In npm scripts "start" is a reserved word. Thus you need not specify "run" in npm run start. But it is not the case for builds.
