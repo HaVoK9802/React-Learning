@@ -1,3 +1,8 @@
+
+The primary function of a build tool is to combine multiple JavaScript files into one single 
+file or bundle that can be used in the browser to load your application.
+eg. parcel(dev server),webpack are some bundlers.
+
 npm does not stand for node package management.
 npm does not have an abbrievation.
 

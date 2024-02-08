@@ -1,0 +1,15 @@
+parcel: bundler
+-> dev build
+-> local server
+-> Hot Module replacement (auto refresh on saving file)
+-> Uses File Watching Algorithms written in C++.
+-> Caching for faster builds
+-> image optimization
+-> while creating production build, minification of our project and bundling is done.
+-> better error handling suggestions and diagnostics
+-> tree shaking - remove unused/unnecessary code 
+
+
+
+Normal js browser scripts do not allow imports or exports, so type="module" will tell the browser that
+it is not a normal js script.
