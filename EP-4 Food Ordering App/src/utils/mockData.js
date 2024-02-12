@@ -1,6 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
 const cardInfo = [
     {
       "card": {
@@ -66,186 +63,6 @@ const cardInfo = [
                 }
               },
               {
-                "id": "762797",
-                "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
-                  "text": "Burgers",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for burger",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750582",
-                "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
-                  "text": "North Indian",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for north indian",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750205",
-                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
-                  "text": "Parotta",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for parotta",
-                  "altTextCta": "open"
-                },
-                "entityId": "80478",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750588",
-                "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
-                  "text": "Chinese",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for chinese",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "749774",
-                "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                  "text": "Noodles",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for noodles",
-                  "altTextCta": "open"
-                },
-                "entityId": "80464",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750132",
-                "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                  "text": "Dosa",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for dosa",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750644",
-                "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80441?collection_id=80441&searchContext=idli&tags=layout_CCS_Idli&type=rcv2",
-                  "text": "Idli",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for idly",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=80441&tags=layout_CCS_Idli&searchContext=idli",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750203",
-                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                  "text": "Paratha",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for paratha",
-                  "altTextCta": "open"
-                },
-                "entityId": "80476",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750249",
-                "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
-                  "text": "Shawarma",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for shawarma",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750207",
-                "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
-                  "text": "Pasta",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for pasta",
-                  "altTextCta": "open"
-                },
-                "entityId": "80480",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
                 "id": "750584",
                 "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
                 "action": {
@@ -264,73 +81,19 @@ const cardInfo = [
                 }
               },
               {
-                "id": "750597",
-                "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                "id": "762797",
+                "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
                 "action": {
-                  "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
-                  "text": "Ice Cream",
+                  "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
+                  "text": "Burgers",
                   "type": "WEBLINK"
                 },
                 "entityType": "BANNER",
                 "accessibility": {
-                  "altText": "restaurants curated for icecream",
+                  "altText": "restaurants curated for burger",
                   "altTextCta": "open"
                 },
-                "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "749874",
-                "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                  "text": "Cakes",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for cakes",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "749769",
-                "imageId": "v1674029852/PC_Creative%20refresh/3D_bau/banners_new/Momos.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/80462?collection_id=80462&tags=layout_CCS_Momos&type=rcv2",
-                  "text": "Momos",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurant curated for momos",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=80462&tags=layout_CCS_Momos",
-                "frequencyCapping": {
-                  
-                }
-              },
-              {
-                "id": "750223",
-                "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
-                "action": {
-                  "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
-                  "text": "Rolls",
-                  "type": "WEBLINK"
-                },
-                "entityType": "BANNER",
-                "accessibility": {
-                  "altText": "restaurants curated for roll",
-                  "altTextCta": "open"
-                },
-                "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
                 "frequencyCapping": {
                   
                 }
@@ -354,19 +117,181 @@ const cardInfo = [
                 }
               },
               {
-                "id": "750636",
-                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                "id": "750582",
+                "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
                 "action": {
-                  "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
-                  "text": "Kebabs",
+                  "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
+                  "text": "North Indian",
                   "type": "WEBLINK"
                 },
                 "entityType": "BANNER",
                 "accessibility": {
-                  "altText": "restaurant curated for kebabs",
+                  "altText": "restaurants curated for north indian",
                   "altTextCta": "open"
                 },
-                "entityId": "80452",
+                "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750588",
+                "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                  "text": "Chinese",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for chinese",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750223",
+                "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                  "text": "Rolls",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurants curated for roll",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750207",
+                "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                  "text": "Pasta",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for pasta",
+                  "altTextCta": "open"
+                },
+                "entityId": "80480",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "749874",
+                "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                  "text": "Cakes",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for cakes",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750205",
+                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                  "text": "Parotta",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for parotta",
+                  "altTextCta": "open"
+                },
+                "entityId": "80478",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "749826",
+                "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Bath.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80356?collection_id=80356&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+                  "text": "Bath",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for bath",
+                  "altTextCta": "open"
+                },
+                "entityId": "80356",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "749774",
+                "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                  "text": "Noodles",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for noodles",
+                  "altTextCta": "open"
+                },
+                "entityId": "80464",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750597",
+                "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                  "text": "Ice Cream",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurants curated for icecream",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750203",
+                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                  "text": "Paratha",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurants curated for paratha",
+                  "altTextCta": "open"
+                },
+                "entityId": "80476",
                 "frequencyCapping": {
                   
                 }
@@ -390,6 +315,42 @@ const cardInfo = [
                 }
               },
               {
+                "id": "750636",
+                "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
+                  "text": "Kebabs",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for kebabs",
+                  "altTextCta": "open"
+                },
+                "entityId": "80452",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750132",
+                "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
+                  "text": "Dosa",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurants curated for dosa",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
                 "id": "750562",
                 "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
                 "action": {
@@ -403,6 +364,42 @@ const cardInfo = [
                   "altTextCta": "open"
                 },
                 "entityId": "80427",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750239",
+                "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                  "text": "Shake",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for shakes",
+                  "altTextCta": "open"
+                },
+                "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                "frequencyCapping": {
+                  
+                }
+              },
+              {
+                "id": "750244",
+                "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Puttu.png",
+                "action": {
+                  "link": "https://www.swiggy.com/collections/80386?collection_id=80386&tags=layout_BAU_Contextual%2Cputtu&type=rcv2",
+                  "text": "Puttu",
+                  "type": "WEBLINK"
+                },
+                "entityType": "BANNER",
+                "accessibility": {
+                  "altText": "restaurant curated for puttu",
+                  "altTextCta": "open"
+                },
+                "entityId": "80386",
                 "frequencyCapping": {
                   
                 }
@@ -445,186 +442,6 @@ const cardInfo = [
                   }
                 },
                 {
-                  "id": "762797",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
-                    "text": "Burgers",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for burger",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750582",
-                  "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
-                    "text": "North Indian",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for north indian",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750205",
-                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
-                    "text": "Parotta",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for parotta",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80478",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750588",
-                  "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
-                    "text": "Chinese",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for chinese",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749774",
-                  "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                    "text": "Noodles",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for noodles",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80464",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750132",
-                  "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
-                    "text": "Dosa",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for dosa",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750644",
-                  "imageId": "v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80441?collection_id=80441&searchContext=idli&tags=layout_CCS_Idli&type=rcv2",
-                    "text": "Idli",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for idly",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80441&tags=layout_CCS_Idli&searchContext=idli",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750203",
-                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
-                    "text": "Paratha",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for paratha",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80476",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750249",
-                  "imageId": "v1674029859/PC_Creative%20refresh/3D_bau/banners_new/Shawarma.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80403?collection_id=80403&tags=layout_Shawarma_Contextual&type=rcv2",
-                    "text": "Shawarma",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for shawarma",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80403&tags=layout_Shawarma_Contextual",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750207",
-                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
-                    "text": "Pasta",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pasta",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80480",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
                   "id": "750584",
                   "imageId": "v1675667626/PC_Creative%20refresh/South_Indian_4.png",
                   "action": {
@@ -643,73 +460,19 @@ const cardInfo = [
                   }
                 },
                 {
-                  "id": "750597",
-                  "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                  "id": "762797",
+                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
-                    "text": "Ice Cream",
+                    "link": "https://www.swiggy.com/collections/83637?collection_id=83637&tags=layout_CCS_Burger&type=rcv2",
+                    "text": "Burgers",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for icecream",
+                    "altText": "restaurants curated for burger",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749874",
-                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
-                    "text": "Cakes",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for cakes",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "749769",
-                  "imageId": "v1674029852/PC_Creative%20refresh/3D_bau/banners_new/Momos.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80462?collection_id=80462&tags=layout_CCS_Momos&type=rcv2",
-                    "text": "Momos",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for momos",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80462&tags=layout_CCS_Momos",
-                  "frequencyCapping": {
-                    
-                  }
-                },
-                {
-                  "id": "750223",
-                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
-                    "text": "Rolls",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for roll",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                  "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger",
                   "frequencyCapping": {
                     
                   }
@@ -733,19 +496,181 @@ const cardInfo = [
                   }
                 },
                 {
-                  "id": "750636",
-                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                  "id": "750582",
+                  "imageId": "v1675667625/PC_Creative%20refresh/North_Indian_4.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
-                    "text": "Kebabs",
+                    "link": "https://www.swiggy.com/collections/83645?collection_id=83645&tags=layout_CCS_NorthIndian&type=rcv2",
+                    "text": "North Indian",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for kebabs",
+                    "altText": "restaurants curated for north indian",
                     "altTextCta": "open"
                   },
-                  "entityId": "80452",
+                  "entityId": "swiggy://collectionV2?collection_id=83645&tags=layout_CCS_NorthIndian",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750588",
+                  "imageId": "v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83647?collection_id=83647&tags=layout_CCS_Chinese&type=rcv2",
+                    "text": "Chinese",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for chinese",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83647&tags=layout_CCS_Chinese",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750223",
+                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Rolls.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83670?collection_id=83670&tags=layout_CCS_Rolls&type=rcv2",
+                    "text": "Rolls",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for roll",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83670&tags=layout_CCS_Rolls",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750207",
+                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Pasta.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80480?collection_id=80480&tags=layout_BAU_Contextual%2Cpasta%2Cads_pc_pasta&type=rcv2",
+                    "text": "Pasta",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for pasta",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80480",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "749874",
+                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Cakes.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83656?collection_id=83656&tags=layout_CCS_Cake&type=rcv2",
+                    "text": "Cakes",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for cakes",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83656&tags=layout_CCS_Cake",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750205",
+                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Parotta.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80478?collection_id=80478&tags=layout_BAU_Contextual%2Cparotta&type=rcv2",
+                    "text": "Parotta",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for parotta",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80478",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "749826",
+                  "imageId": "v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Bath.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80356?collection_id=80356&tags=layout_BAU_Contextual%2Cbath%2Clayout_ux4&type=rcv2",
+                    "text": "Bath",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for bath",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80356",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "749774",
+                  "imageId": "v1674029855/PC_Creative%20refresh/3D_bau/banners_new/Noodles.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80464?collection_id=80464&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                    "text": "Noodles",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for noodles",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80464",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750597",
+                  "imageId": "v1674029851/PC_Creative%20refresh/3D_bau/banners_new/Ice_Creams.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83650?collection_id=83650&tags=layout_CCS_IceCreams&type=rcv2",
+                    "text": "Ice Cream",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for icecream",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83650&tags=layout_CCS_IceCreams",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750203",
+                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Paratha.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80476?collection_id=80476&tags=layout_BAU_Contextual%2Cparatha%2Cads_pc_paratha&type=rcv2",
+                    "text": "Paratha",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for paratha",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80476",
                   "frequencyCapping": {
                     
                   }
@@ -769,6 +694,42 @@ const cardInfo = [
                   }
                 },
                 {
+                  "id": "750636",
+                  "imageId": "v1674029853/PC_Creative%20refresh/3D_bau/banners_new/Kebabs.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80452?collection_id=80452&tags=layout_BAU_Contextual%2Ckebab%2Cads_pc_kebab&type=rcv2",
+                    "text": "Kebabs",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for kebabs",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80452",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750132",
+                  "imageId": "v1674029850/PC_Creative%20refresh/3D_bau/banners_new/Dosa.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80426?collection_id=80426&tags=layout_CCS_Dosa&type=rcv2",
+                    "text": "Dosa",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for dosa",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80426&tags=layout_CCS_Dosa",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
                   "id": "750562",
                   "imageId": "v1674029842/PC_Creative%20refresh/3D_bau/banners_new/Vada.png",
                   "action": {
@@ -782,6 +743,42 @@ const cardInfo = [
                     "altTextCta": "open"
                   },
                   "entityId": "80427",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750239",
+                  "imageId": "v1674029858/PC_Creative%20refresh/3D_bau/banners_new/Shakes.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83674?collection_id=83674&tags=layout_CCS_Shakes&type=rcv2",
+                    "text": "Shake",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for shakes",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83674&tags=layout_CCS_Shakes",
+                  "frequencyCapping": {
+                    
+                  }
+                },
+                {
+                  "id": "750244",
+                  "imageId": "v1674029854/PC_Creative%20refresh/3D_bau/banners_new/Puttu.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80386?collection_id=80386&tags=layout_BAU_Contextual%2Cputtu&type=rcv2",
+                    "text": "Puttu",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for puttu",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80386",
                   "frequencyCapping": {
                     
                   }
@@ -866,120 +863,40 @@ const cardInfo = [
               "restaurants": [
                 {
                   "info": {
-                    "id": "65303",
-                    "name": "The Red Box",
-                    "cloudinaryImageId": "e30g5rut9b9vvwjjveds",
-                    "locality": "Karapakkam",
-                    "areaName": "Karapakkam",
-                    "costForTwo": "₹400 for two",
+                    "id": "203407",
+                    "name": "Wow! Momo",
+                    "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
+                    "locality": "Thuraipakkam",
+                    "areaName": "Thuraipakkam",
+                    "costForTwo": "₹300 for two",
                     "cuisines": [
-                      "Chinese"
-                    ],
-                    "avgRating": 3.9,
-                    "parentId": "1636",
-                    "avgRatingString": "3.9",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 20,
-                      "lastMileTravel": 2.3,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "20 mins",
-                      "lastMileTravelString": "2.3 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 00:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "40% OFF",
-                      "subHeader": "UPTO ₹80"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/the-red-box-karapakkam-chennai-65303",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "104023",
-                    "name": "Zaitoon",
-                    "cloudinaryImageId": "xixwtmul8odryb9te9hb",
-                    "areaName": "Egatoor",
-                    "costForTwo": "₹500 for two",
-                    "cuisines": [
-                      "Biryani",
-                      "Arabian",
+                      "Tibetan",
+                      "Healthy Food",
+                      "Asian",
                       "Chinese",
-                      "Juices",
-                      "Mughlai",
-                      "Kebabs"
+                      "Snacks",
+                      "Continental",
+                      "Desserts",
+                      "Beverages"
                     ],
-                    "avgRating": 4.3,
-                    "parentId": "4555",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
+                    "avgRating": 4.2,
+                    "parentId": "1776",
+                    "avgRatingString": "4.2",
+                    "totalRatingsString": "5K+",
                     "sla": {
-                      "deliveryTime": 35,
-                      "lastMileTravel": 7.7,
+                      "deliveryTime": 34,
+                      "lastMileTravel": 6.8,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "35 mins",
-                      "lastMileTravelString": "7.7 km",
+                      "slaString": "34 mins",
+                      "lastMileTravelString": "6.8 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
+                      "nextCloseTime": "2024-02-13 03:00:00",
                       "opened": true
                     },
                     "badges": {
-                      "textExtendedBadges": [
-                        {
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available",
-                          "fontColor": "#7E808C"
-                        }
-                      ]
+                      
                     },
                     "isOpen": true,
                     "type": "F",
@@ -992,22 +909,13 @@ const cardInfo = [
                           
                         },
                         "textExtendedBadges": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "",
-                                "fontColor": "#7E808C",
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available"
-                              }
-                            }
-                          ]
+                          
                         }
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "₹125 OFF",
-                      "subHeader": "ABOVE ₹249",
+                      "header": "₹150 OFF",
+                      "subHeader": "ABOVE ₹499",
                       "discountTag": "FLAT DEAL"
                     },
                     "differentiatedUi": {
@@ -1034,38 +942,37 @@ const cardInfo = [
                     
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/zaitoon-egatoor-chennai-104023",
+                    "link": "https://www.swiggy.com/restaurants/wow-momo-thuraipakkam-chennai-203407",
                     "type": "WEBLINK"
                   }
                 },
                 {
                   "info": {
-                    "id": "234986",
-                    "name": "McDonald's",
-                    "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
-                    "locality": "Gire Thoraipakkam",
-                    "areaName": "Nehru Nagar",
-                    "costForTwo": "₹400 for two",
+                    "id": "444674",
+                    "name": "Andhra Gunpowder",
+                    "cloudinaryImageId": "o18xlrtaxapi2bq7rpoz",
+                    "locality": "Thoraipakkam",
+                    "areaName": "OMR Perungudi",
+                    "costForTwo": "₹350 for two",
                     "cuisines": [
-                      "Burgers",
-                      "Beverages",
-                      "Cafe",
-                      "Desserts"
+                      "Andhra",
+                      "Biryani",
+                      "South Indian"
                     ],
                     "avgRating": 4.3,
-                    "parentId": "630",
+                    "parentId": "10496",
                     "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
+                    "totalRatingsString": "1K+",
                     "sla": {
-                      "deliveryTime": 22,
-                      "lastMileTravel": 4.1,
+                      "deliveryTime": 24,
+                      "lastMileTravel": 5.5,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "22 mins",
-                      "lastMileTravelString": "4.1 km",
+                      "slaString": "24 mins",
+                      "lastMileTravelString": "5.5 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 02:45:00",
+                      "nextCloseTime": "2024-02-12 23:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -1102,8 +1009,184 @@ const cardInfo = [
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "40% OFF",
-                      "subHeader": "UPTO ₹80"
+                      "header": "₹100 OFF",
+                      "subHeader": "ABOVE ₹399",
+                      "discountTag": "FLAT DEAL"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/andhra-gunpowder-thoraipakkam-omr-perungudi-chennai-444674",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "104680",
+                    "name": "Domino's Pizza",
+                    "cloudinaryImageId": "terdirvzcbmbwok1bwsu",
+                    "locality": "KAILASH OMR SHOLINAGANALLUR CHENNAI",
+                    "areaName": "Sholinganallur",
+                    "costForTwo": "₹400 for two",
+                    "cuisines": [
+                      "Pizzas",
+                      "Italian",
+                      "Pastas",
+                      "Desserts"
+                    ],
+                    "avgRating": 4.3,
+                    "parentId": "2456",
+                    "avgRatingString": "4.3",
+                    "totalRatingsString": "5K+",
+                    "sla": {
+                      "deliveryTime": 25,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "25 mins",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 22:59:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "₹150 OFF",
+                      "subHeader": "ABOVE ₹299",
+                      "discountTag": "FLAT DEAL"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/dominos-pizza-kailash-omr-sholinaganallur-sholinganallur-chennai-104680",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "234986",
+                    "name": "McDonald's",
+                    "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
+                    "locality": "Gire Thoraipakkam",
+                    "areaName": "Nehru Nagar",
+                    "costForTwo": "₹400 for two",
+                    "cuisines": [
+                      "Burgers",
+                      "Beverages",
+                      "Cafe",
+                      "Desserts"
+                    ],
+                    "avgRating": 4.3,
+                    "parentId": "630",
+                    "avgRatingString": "4.3",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 20,
+                      "lastMileTravel": 4.1,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "20 mins",
+                      "lastMileTravelString": "4.1 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-13 02:45:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "10% OFF",
+                      "subHeader": "ABOVE ₹1000",
+                      "discountTag": "FLAT DEAL"
                     },
                     "differentiatedUi": {
                       "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1135,6 +1218,214 @@ const cardInfo = [
                 },
                 {
                   "info": {
+                    "id": "17824",
+                    "name": "KFC",
+                    "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+                    "locality": "OMR",
+                    "areaName": "OMR-Perungudi",
+                    "costForTwo": "₹400 for two",
+                    "cuisines": [
+                      "Burgers",
+                      "Biryani",
+                      "American",
+                      "Snacks",
+                      "Fast Food"
+                    ],
+                    "avgRating": 4.2,
+                    "parentId": "547",
+                    "avgRatingString": "4.2",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 23,
+                      "lastMileTravel": 4.5,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "23 mins",
+                      "lastMileTravelString": "4.5 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-13 02:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "20% OFF",
+                      "subHeader": "UPTO ₹50"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/kfc-omr-omr-perungudi-chennai-17824",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "117179",
+                    "name": "The Bowl Company",
+                    "cloudinaryImageId": "bb6049fae59b8a2413a9177eb0338b49",
+                    "locality": "OMR Perungudi",
+                    "areaName": "Mcn Nagar",
+                    "costForTwo": "₹300 for two",
+                    "cuisines": [
+                      "Pan-Asian",
+                      "Continental",
+                      "North Indian",
+                      "Desserts",
+                      "American",
+                      "Asian",
+                      "Beverages",
+                      "Biryani",
+                      "Chinese",
+                      "European",
+                      "Grill",
+                      "Hyderabadi",
+                      "Indian",
+                      "Italian",
+                      "Kebabs",
+                      "Lucknowi",
+                      "Mediterranean",
+                      "Mexican",
+                      "Mughlai",
+                      "Oriental",
+                      "Pastas",
+                      "Punjabi",
+                      "Raja"
+                    ],
+                    "avgRating": 4.3,
+                    "parentId": "4317",
+                    "avgRatingString": "4.3",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 28,
+                      "lastMileTravel": 5.6,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "28 mins",
+                      "lastMileTravelString": "5.6 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 23:30:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "imageBadges": [
+                        {
+                          "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                          "description": "OnlyOnSwiggy"
+                        }
+                      ],
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "OnlyOnSwiggy",
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                              }
+                            }
+                          ]
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "60% OFF",
+                      "subHeader": "UPTO ₹110"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/the-bowl-company-omr-perungudi-mcn-nagar-chennai-117179",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
                     "id": "25881",
                     "name": "Subway",
                     "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
@@ -1152,15 +1443,15 @@ const cardInfo = [
                     "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 16,
+                      "deliveryTime": 15,
                       "lastMileTravel": 0.9,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "16 mins",
+                      "slaString": "15 mins",
                       "lastMileTravelString": "0.9 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:57:00",
+                      "nextCloseTime": "2024-02-12 23:57:00",
                       "opened": true
                     },
                     "badges": {
@@ -1229,278 +1520,6 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "17821",
-                    "name": "KFC",
-                    "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
-                    "locality": "ECR",
-                    "areaName": "Kottivakkam",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                      "Burgers",
-                      "Biryani",
-                      "American",
-                      "Snacks",
-                      "Fast Food"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "547",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 32,
-                      "lastMileTravel": 9.7,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "32 mins",
-                      "lastMileTravelString": "9.7 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 02:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "aggregatedDiscountInfoV2": {
-                      
-                    },
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/kfc-ecr-kottivakkam-chennai-17821",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "69527",
-                    "name": "Pizza Hut",
-                    "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-                    "locality": "Thirumalai Nagar",
-                    "areaName": "Old Mahabalipuram Road OMR",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                      "Pizzas"
-                    ],
-                    "avgRating": 4,
-                    "parentId": "721",
-                    "avgRatingString": "4.0",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 33,
-                      "lastMileTravel": 7.5,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "33 mins",
-                      "lastMileTravelString": "7.5 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 00:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "ITEMS",
-                      "subHeader": "AT ₹179"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/pizza-hut-thirumalai-nagar-old-mahabalipuram-road-omr-chennai-69527",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "528711",
-                    "name": "Istah - The Mediterranean Way",
-                    "cloudinaryImageId": "9a01f2935fcb5ae05426db8264062102",
-                    "locality": "Okkiyam Thoraipakkam Village",
-                    "areaName": "sholinganaliur",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                      "Mediterranean",
-                      "Snacks",
-                      "Biryani",
-                      "Grill",
-                      "Kebabs",
-                      "Arabian",
-                      "Lebanese",
-                      "Beverages",
-                      "Desserts",
-                      "Italian",
-                      "Turkish"
-                    ],
-                    "avgRating": 4.4,
-                    "parentId": "3518",
-                    "avgRatingString": "4.4",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                      "deliveryTime": 28,
-                      "lastMileTravel": 5.5,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "28 mins",
-                      "lastMileTravelString": "5.5 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-11 23:30:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      "imageBadges": [
-                        {
-                          "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                          "description": "OnlyOnSwiggy"
-                        }
-                      ],
-                      "textExtendedBadges": [
-                        {
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available",
-                          "fontColor": "#7E808C"
-                        }
-                      ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "OnlyOnSwiggy",
-                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
-                              }
-                            }
-                          ]
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "",
-                                "fontColor": "#7E808C",
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "EVERY ITEM",
-                      "subHeader": "@ ₹149"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/istah-the-mediterranean-way-okkiyam-thoraipakkam-village-sholinganaliur-chennai-528711",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
                     "id": "42955",
                     "name": "Faasos - Wraps, Rolls & Shawarma",
                     "cloudinaryImageId": "af33b81798b11deba338e94b7585d348",
@@ -1529,7 +1548,7 @@ const cardInfo = [
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
+                      "nextCloseTime": "2024-02-12 23:59:00",
                       "opened": true
                     },
                     "badges": {
@@ -1599,393 +1618,6 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "117179",
-                    "name": "The Bowl Company",
-                    "cloudinaryImageId": "bb6049fae59b8a2413a9177eb0338b49",
-                    "locality": "OMR Perungudi",
-                    "areaName": "Mcn Nagar",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                      "Pan-Asian",
-                      "Continental",
-                      "North Indian",
-                      "Desserts",
-                      "American",
-                      "Asian",
-                      "Beverages",
-                      "Biryani",
-                      "Chinese",
-                      "European",
-                      "Grill",
-                      "Hyderabadi",
-                      "Indian",
-                      "Italian",
-                      "Kebabs",
-                      "Lucknowi",
-                      "Mediterranean",
-                      "Mexican",
-                      "Mughlai",
-                      "Oriental",
-                      "Pastas",
-                      "Punjabi",
-                      "Raja"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "4317",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 27,
-                      "lastMileTravel": 5.6,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "27 mins",
-                      "lastMileTravelString": "5.6 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-11 23:30:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      "imageBadges": [
-                        {
-                          "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                          "description": "OnlyOnSwiggy"
-                        }
-                      ],
-                      "textExtendedBadges": [
-                        {
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available",
-                          "fontColor": "#7E808C"
-                        }
-                      ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "OnlyOnSwiggy",
-                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
-                              }
-                            }
-                          ]
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "",
-                                "fontColor": "#7E808C",
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available"
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "EVERY ITEM",
-                      "subHeader": "@ ₹149"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/the-bowl-company-omr-perungudi-mcn-nagar-chennai-117179",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "203407",
-                    "name": "Wow! Momo",
-                    "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
-                    "locality": "Thuraipakkam",
-                    "areaName": "Thuraipakkam",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                      "Tibetan",
-                      "Healthy Food",
-                      "Asian",
-                      "Chinese",
-                      "Snacks",
-                      "Continental",
-                      "Desserts",
-                      "Beverages"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "1776",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "5K+",
-                    "sla": {
-                      "deliveryTime": 32,
-                      "lastMileTravel": 6.8,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "32 mins",
-                      "lastMileTravelString": "6.8 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 03:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "ITEMS",
-                      "subHeader": "AT ₹99"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/wow-momo-thuraipakkam-chennai-203407",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "237518",
-                    "name": "The Belgian Waffle Co.",
-                    "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
-                    "locality": "Old Mahabalipuram Rd",
-                    "areaName": "Perungudi",
-                    "costForTwo": "₹200 for two",
-                    "cuisines": [
-                      "Waffle",
-                      "Desserts",
-                      "Ice Cream",
-                      "Beverages"
-                    ],
-                    "avgRating": 4.6,
-                    "veg": true,
-                    "parentId": "2233",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                      "deliveryTime": 31,
-                      "lastMileTravel": 6.7,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "31 mins",
-                      "lastMileTravelString": "6.7 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "20% OFF",
-                      "subHeader": "UPTO ₹50"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-old-mahabalipuram-rd-perungudi-chennai-237518",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "42949",
-                    "name": "Behrouz Biryani",
-                    "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
-                    "locality": "Ex-Service Man colony,1st Street",
-                    "areaName": "Medavakkam",
-                    "costForTwo": "₹500 for two",
-                    "cuisines": [
-                      "Biryani",
-                      "Kebabs",
-                      "Mughlai",
-                      "Lucknowi",
-                      "Hyderabadi",
-                      "Desserts",
-                      "Beverages"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "1803",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "5K+",
-                    "sla": {
-                      "deliveryTime": 24,
-                      "lastMileTravel": 3,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "24 mins",
-                      "lastMileTravelString": "3.0 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      "imageBadges": [
-                        {
-                          "imageId": "newg.png",
-                          "description": "Gourmet"
-                        }
-                      ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "Gourmet",
-                                "imageId": "newg.png"
-                              }
-                            }
-                          ]
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "50% OFF",
-                      "subHeader": "UPTO ₹100"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/behrouz-biryani-ex-service-man-colony-1st-street-medavakkam-chennai-42949",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
                     "id": "62987",
                     "name": "LunchBox - Meals and Thalis",
                     "cloudinaryImageId": "a0evvizlmd9i6hobrozt",
@@ -2005,15 +1637,15 @@ const cardInfo = [
                     "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 26,
+                      "deliveryTime": 24,
                       "lastMileTravel": 3,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "26 mins",
+                      "slaString": "24 mins",
                       "lastMileTravelString": "3.0 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
+                      "nextCloseTime": "2024-02-12 23:59:00",
                       "opened": true
                     },
                     "badges": {
@@ -2083,6 +1715,85 @@ const cardInfo = [
                 },
                 {
                   "info": {
+                    "id": "14661",
+                    "name": "Salem RR Biriyani Unavagam",
+                    "cloudinaryImageId": "3daa979cd6892a3bcdf2f0ecea2b2d98",
+                    "locality": "Shollinganallur",
+                    "areaName": "Sholinganallur",
+                    "costForTwo": "₹400 for two",
+                    "cuisines": [
+                      "Biryani",
+                      "Chettinad",
+                      "Tandoor",
+                      "Chinese"
+                    ],
+                    "avgRating": 3.8,
+                    "parentId": "176137",
+                    "avgRatingString": "3.8",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 20,
+                      "lastMileTravel": 1.2,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "20 mins",
+                      "lastMileTravelString": "1.2 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 18:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      
+                    },
+                    "isOpen": true,
+                    "aggregatedDiscountInfoV2": {
+                      
+                    },
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/salem-rr-biriyani-unavagam-shollinganallur-sholinganallur-chennai-14661",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
                     "id": "155437",
                     "name": "The Good Bowl",
                     "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
@@ -2101,15 +1812,15 @@ const cardInfo = [
                     "avgRatingString": "4.3",
                     "totalRatingsString": "1K+",
                     "sla": {
-                      "deliveryTime": 31,
+                      "deliveryTime": 26,
                       "lastMileTravel": 4.9,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "31 mins",
+                      "slaString": "26 mins",
                       "lastMileTravelString": "4.9 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
+                      "nextCloseTime": "2024-02-12 23:59:00",
                       "opened": true
                     },
                     "badges": {
@@ -2179,54 +1890,47 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "402123",
-                    "name": "Baskin Robbins - Ice Cream Desserts",
-                    "cloudinaryImageId": "85ccae4e3576f9330af102c46ca85395",
-                    "locality": "Perungudi Fc",
-                    "areaName": "Kandanchavadi",
-                    "costForTwo": "₹250 for two",
+                    "id": "21477",
+                    "name": "Dindigul Thalappakatti",
+                    "cloudinaryImageId": "yibdrd2b0h8zkw6nbfum",
+                    "locality": "Karappakam",
+                    "areaName": "Karappakam",
+                    "costForTwo": "₹600 for two",
                     "cuisines": [
-                      "Desserts",
-                      "Ice Cream"
+                      "Biryani",
+                      "Barbecue",
+                      "South Indian",
+                      "Chinese",
+                      "North Indian"
                     ],
-                    "avgRating": 4.1,
-                    "veg": true,
-                    "parentId": "5588",
-                    "avgRatingString": "4.1",
-                    "totalRatingsString": "100+",
+                    "avgRating": 4.2,
+                    "parentId": "332",
+                    "avgRatingString": "4.2",
+                    "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 30,
-                      "lastMileTravel": 8.7,
+                      "deliveryTime": 25,
+                      "lastMileTravel": 3.5,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "30 mins",
-                      "lastMileTravelString": "8.7 km",
+                      "slaString": "25 mins",
+                      "lastMileTravelString": "3.5 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
+                      "nextCloseTime": "2024-02-13 01:00:00",
                       "opened": true
                     },
                     "badges": {
-                      "imageBadges": [
-                        {
-                          "imageId": "v1695133679/badges/Pure_Veg111.png",
-                          "description": "pureveg"
-                        }
-                      ]
+                      
                     },
                     "isOpen": true,
+                    "aggregatedDiscountInfoV2": {
+                      
+                    },
                     "type": "F",
                     "badgesV2": {
                       "entityBadges": {
                         "imageBased": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "pureveg",
-                                "imageId": "v1695133679/badges/Pure_Veg111.png"
-                              }
-                            }
-                          ]
+                          
                         },
                         "textBased": {
                           
@@ -2235,11 +1939,6 @@ const cardInfo = [
                           
                         }
                       }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "10% OFF",
-                      "subHeader": "ABOVE ₹1000",
-                      "discountTag": "FLAT DEAL"
                     },
                     "differentiatedUi": {
                       "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2265,7 +1964,203 @@ const cardInfo = [
                     
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/baskin-robbins-ice-cream-desserts-perungudi-fc-kandanchavadi-chennai-402123",
+                    "link": "https://www.swiggy.com/restaurants/dindigul-thalappakatti-karappakam-chennai-21477",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "324245",
+                    "name": "The Belgian Waffle Co.",
+                    "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                    "locality": "Yellow Bells Food Stall",
+                    "areaName": "Perumbakkam",
+                    "costForTwo": "₹200 for two",
+                    "cuisines": [
+                      "Waffle",
+                      "Desserts",
+                      "Ice Cream",
+                      "Beverages"
+                    ],
+                    "avgRating": 4.6,
+                    "veg": true,
+                    "parentId": "2233",
+                    "avgRatingString": "4.6",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                      "deliveryTime": 38,
+                      "lastMileTravel": 5,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "38 mins",
+                      "lastMileTravelString": "5.0 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 22:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "20% OFF",
+                      "subHeader": "UPTO ₹50"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/the-belgian-waffle-co-yellow-bells-food-stall-perumbakkam-chennai-324245",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "528711",
+                    "name": "Istah - The Mediterranean Way",
+                    "cloudinaryImageId": "9a01f2935fcb5ae05426db8264062102",
+                    "locality": "Okkiyam Thoraipakkam Village",
+                    "areaName": "sholinganaliur",
+                    "costForTwo": "₹250 for two",
+                    "cuisines": [
+                      "Mediterranean",
+                      "Snacks",
+                      "Biryani",
+                      "Grill",
+                      "Kebabs",
+                      "Arabian",
+                      "Lebanese",
+                      "Beverages",
+                      "Desserts",
+                      "Italian",
+                      "Turkish"
+                    ],
+                    "avgRating": 4.4,
+                    "parentId": "3518",
+                    "avgRatingString": "4.4",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                      "deliveryTime": 30,
+                      "lastMileTravel": 5.5,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "30 mins",
+                      "lastMileTravelString": "5.5 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 23:30:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "imageBadges": [
+                        {
+                          "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                          "description": "OnlyOnSwiggy"
+                        }
+                      ],
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "OnlyOnSwiggy",
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                              }
+                            }
+                          ]
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "60% OFF",
+                      "subHeader": "UPTO ₹110"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/istah-the-mediterranean-way-okkiyam-thoraipakkam-village-sholinganaliur-chennai-528711",
                     "type": "WEBLINK"
                   }
                 },
@@ -2291,15 +2186,15 @@ const cardInfo = [
                     "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 26,
+                      "deliveryTime": 28,
                       "lastMileTravel": 3,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "26 mins",
+                      "slaString": "28 mins",
                       "lastMileTravelString": "3.0 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:20:00",
+                      "nextCloseTime": "2024-02-12 23:20:00",
                       "opened": true
                     },
                     "badges": {
@@ -2354,251 +2249,6 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "58162",
-                    "name": "Roll Baby Roll",
-                    "cloudinaryImageId": "uokfd61wpfknjqjfqzrk",
-                    "locality": "GANDHI 2ND\r\nSTREET",
-                    "areaName": "Sholinganallur",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                      "Indian",
-                      "Rolls & Wraps",
-                      "Fast Food",
-                      "Street Food",
-                      "Snacks",
-                      "Beverages",
-                      "Juices"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "4228",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 21,
-                      "lastMileTravel": 2.3,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "21 mins",
-                      "lastMileTravelString": "2.3 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 04:50:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "50% OFF",
-                      "subHeader": "UPTO ₹100"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/roll-baby-roll-gandhi-2nd-street-sholinganallur-chennai-58162",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "21477",
-                    "name": "Dindigul Thalappakatti",
-                    "cloudinaryImageId": "yibdrd2b0h8zkw6nbfum",
-                    "locality": "Karappakam",
-                    "areaName": "Karappakam",
-                    "costForTwo": "₹600 for two",
-                    "cuisines": [
-                      "Biryani",
-                      "Barbecue",
-                      "South Indian",
-                      "Chinese",
-                      "North Indian"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "332",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "10K+",
-                    "sla": {
-                      "deliveryTime": 25,
-                      "lastMileTravel": 3.5,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "25 mins",
-                      "lastMileTravelString": "3.5 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "₹100 OFF",
-                      "subHeader": "ABOVE ₹299",
-                      "discountTag": "FLAT DEAL"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/dindigul-thalappakatti-karappakam-chennai-21477",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
-                    "id": "42932",
-                    "name": "Sweet Truth - Cake and Desserts",
-                    "cloudinaryImageId": "78408969d316991befba0a6eca303e1c",
-                    "locality": "Ex-Service Man colony,1st Street",
-                    "areaName": "Medavakkam",
-                    "costForTwo": "₹450 for two",
-                    "cuisines": [
-                      "Snacks",
-                      "Bakery",
-                      "Desserts",
-                      "Beverages"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "4444",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                      "deliveryTime": 22,
-                      "lastMileTravel": 3,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "22 mins",
-                      "lastMileTravelString": "3.0 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "60% OFF",
-                      "subHeader": "UPTO ₹110"
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-ex-service-man-colony-1st-street-medavakkam-chennai-42932",
-                    "type": "WEBLINK"
-                  }
-                },
-                {
-                  "info": {
                     "id": "579088",
                     "name": "EatFit",
                     "cloudinaryImageId": "543307dc74eeb9dc5e0a58c81fe54996",
@@ -2627,7 +2277,7 @@ const cardInfo = [
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
+                      "nextCloseTime": "2024-02-13 01:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -2664,8 +2314,8 @@ const cardInfo = [
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "ITEMS",
-                      "subHeader": "AT ₹179"
+                      "header": "40% OFF",
+                      "subHeader": "UPTO ₹100"
                     },
                     "differentiatedUi": {
                       "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -2692,6 +2342,400 @@ const cardInfo = [
                   },
                   "cta": {
                     "link": "https://www.swiggy.com/restaurants/eatfit-thiruporur-block-siruseri-chennai-579088",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "141368",
+                    "name": "Starbucks Coffee",
+                    "cloudinaryImageId": "2418209798927d733a50f5d2ebcc2aee",
+                    "locality": "BSR Building Chennai",
+                    "areaName": "Perungudi",
+                    "costForTwo": "₹400 for two",
+                    "cuisines": [
+                      "Beverages",
+                      "Cafe",
+                      "Snacks",
+                      "Desserts",
+                      "Bakery",
+                      "Ice Cream"
+                    ],
+                    "avgRating": 4.4,
+                    "parentId": "195515",
+                    "avgRatingString": "4.4",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                      "deliveryTime": 30,
+                      "lastMileTravel": 7.4,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "30 mins",
+                      "lastMileTravelString": "7.4 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 23:30:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "20% OFF",
+                      "subHeader": "UPTO ₹50"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/starbucks-coffee-bsr-building-perungudi-chennai-141368",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "117180",
+                    "name": "Homely",
+                    "cloudinaryImageId": "sh7lhq8khid25bs8evmg",
+                    "locality": "OMR Perungudi",
+                    "areaName": "Mcn Nagar",
+                    "costForTwo": "₹200 for two",
+                    "cuisines": [
+                      "Home Food",
+                      "North Indian",
+                      "South Indian",
+                      "Beverages",
+                      "Desserts",
+                      "Thalis"
+                    ],
+                    "avgRating": 4.4,
+                    "parentId": "4043",
+                    "avgRatingString": "4.4",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 25,
+                      "lastMileTravel": 5.6,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "25 mins",
+                      "lastMileTravelString": "5.6 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 16:30:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "imageBadges": [
+                        {
+                          "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
+                          "description": "OnlyOnSwiggy"
+                        }
+                      ],
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "OnlyOnSwiggy",
+                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
+                              }
+                            }
+                          ]
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "60% OFF",
+                      "subHeader": "UPTO ₹110"
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/homely-omr-perungudi-mcn-nagar-chennai-117180",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "42949",
+                    "name": "Behrouz Biryani",
+                    "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
+                    "locality": "Ex-Service Man colony,1st Street",
+                    "areaName": "Medavakkam",
+                    "costForTwo": "₹500 for two",
+                    "cuisines": [
+                      "Biryani",
+                      "Kebabs",
+                      "Mughlai",
+                      "Lucknowi",
+                      "Hyderabadi",
+                      "Desserts",
+                      "Beverages"
+                    ],
+                    "avgRating": 4.2,
+                    "parentId": "1803",
+                    "avgRatingString": "4.2",
+                    "totalRatingsString": "5K+",
+                    "sla": {
+                      "deliveryTime": 26,
+                      "lastMileTravel": 3,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "26 mins",
+                      "lastMileTravelString": "3.0 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 23:59:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "imageBadges": [
+                        {
+                          "imageId": "newg.png",
+                          "description": "Gourmet"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "aggregatedDiscountInfoV2": {
+                      
+                    },
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "Gourmet",
+                                "imageId": "newg.png"
+                              }
+                            }
+                          ]
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/behrouz-biryani-ex-service-man-colony-1st-street-medavakkam-chennai-42949",
+                    "type": "WEBLINK"
+                  }
+                },
+                {
+                  "info": {
+                    "id": "91611",
+                    "name": "D.I.E.T Carry",
+                    "cloudinaryImageId": "abksep7vc7ds9ssoqg7n",
+                    "locality": "OMR",
+                    "areaName": "Ezhil Nagar",
+                    "costForTwo": "₹200 for two",
+                    "cuisines": [
+                      "Healthy Food",
+                      "Salads",
+                      "Keto"
+                    ],
+                    "avgRating": 4.5,
+                    "parentId": "17572",
+                    "avgRatingString": "4.5",
+                    "totalRatingsString": "10K+",
+                    "sla": {
+                      "deliveryTime": 36,
+                      "lastMileTravel": 4.9,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "36 mins",
+                      "lastMileTravelString": "4.9 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 22:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "brand",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "aggregatedDiscountInfoV2": {
+                      
+                    },
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "brand"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/d-i-e-t-carry-omr-ezhil-nagar-chennai-91611",
                     "type": "WEBLINK"
                   }
                 }
@@ -2754,7 +2798,7 @@ const cardInfo = [
               "title": "Cost: High to Low"
             }
           ],
-          "restaurantCount": 783,
+          "restaurantCount": 1190,
           "facetList": [
             {
               "label": "Delivery Time",
@@ -2947,6 +2991,14 @@ const cardInfo = [
                   "openFilter": true
                 },
                 {
+                  "label": "Free Delivery ! Limited Stocks!",
+                  "id": "query_free_delivery_!_limited_stocks!",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
                   "label": "Grill",
                   "id": "query_grill",
                   "analytics": {
@@ -3011,6 +3063,14 @@ const cardInfo = [
                   "openFilter": true
                 },
                 {
+                  "label": "Indonesian",
+                  "id": "query_indonesian",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
                   "label": "Italian",
                   "id": "query_italian",
                   "analytics": {
@@ -3021,6 +3081,14 @@ const cardInfo = [
                 {
                   "label": "Italian-American",
                   "id": "query_italian-american",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
+                  "label": "Japanese",
+                  "id": "query_japanese",
                   "analytics": {
                     
                   },
@@ -3243,6 +3311,14 @@ const cardInfo = [
                   "openFilter": true
                 },
                 {
+                  "label": "Singaporean",
+                  "id": "query_singaporean",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
                   "label": "Snacks",
                   "id": "query_snacks",
                   "analytics": {
@@ -3259,8 +3335,24 @@ const cardInfo = [
                   "openFilter": true
                 },
                 {
+                  "label": "Spanish",
+                  "id": "query_spanish",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
                   "label": "Street Food",
                   "id": "query_street_food",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
+                  "label": "Sushi",
+                  "id": "query_sushi",
                   "analytics": {
                     
                   },
@@ -3277,6 +3369,14 @@ const cardInfo = [
                 {
                   "label": "Tandoor",
                   "id": "query_tandoor",
+                  "analytics": {
+                    
+                  },
+                  "openFilter": true
+                },
+                {
+                  "label": "Tex-Mex",
+                  "id": "query_tex-mex",
                   "analytics": {
                     
                   },
@@ -3340,6 +3440,13 @@ const cardInfo = [
                     
                   },
                   "openFilter": true
+                },
+                {
+                  "label": "Swiggy Exclusives",
+                  "id": "isExclusivefacetquery1",
+                  "analytics": {
+                    
+                  }
                 }
               ],
               "viewType": "VIEW_TYPE_HALF_CARD"
@@ -3466,32 +3573,36 @@ const cardInfo = [
               "restaurants": [
                 {
                   "info": {
-                    "id": "347476",
-                    "name": "Nandhana Palace",
-                    "cloudinaryImageId": "195876a3181ef63f76e45e3a7b49b585",
-                    "locality": "Egattur",
-                    "areaName": "Egattur",
-                    "costForTwo": "₹500 for two",
+                    "id": "678545",
+                    "name": "Wow! Momo",
+                    "cloudinaryImageId": "5a148e63e9c54942e37627da1aa156be",
+                    "locality": "ST. Thomas Mount",
+                    "areaName": "Sholinganallur Signal",
+                    "costForTwo": "₹300 for two",
                     "cuisines": [
-                      "Biryani",
-                      "Andhra",
-                      "South Indian",
-                      "North Indian"
+                      "Tibetan",
+                      "Healthy Food",
+                      "Asian",
+                      "Chinese",
+                      "Snacks",
+                      "Continental",
+                      "Desserts",
+                      "Beverages"
                     ],
-                    "avgRating": 4.2,
-                    "parentId": "2120",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "10K+",
+                    "avgRating": 4.3,
+                    "parentId": "1776",
+                    "avgRatingString": "4.3",
+                    "totalRatingsString": "1K+",
                     "sla": {
-                      "deliveryTime": 31,
-                      "lastMileTravel": 8.5,
+                      "deliveryTime": 25,
+                      "lastMileTravel": 2.4,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "31 mins",
-                      "lastMileTravelString": "8.5 km",
+                      "slaString": "25 mins",
+                      "lastMileTravelString": "2.4 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
+                      "nextCloseTime": "2024-02-13 03:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -3513,8 +3624,8 @@ const cardInfo = [
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "₹125 OFF",
-                      "subHeader": "ABOVE ₹399",
+                      "header": "₹150 OFF",
+                      "subHeader": "ABOVE ₹499",
                       "discountTag": "FLAT DEAL"
                     },
                     "orderabilityCommunication": {
@@ -3552,10 +3663,10 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/nandhana-palace-egattur-chennai-347476",
+                    "link": "https://www.swiggy.com/restaurants/wow-momo-st-thomas-mount-sholinganallur-signal-chennai-678545",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -3563,125 +3674,32 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "485445",
-                    "name": "Chinese Wok",
-                    "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
-                    "locality": "Old Mahabalipuram Road OMR",
-                    "areaName": "Old Mahabalipuram Road OMR",
-                    "costForTwo": "₹250 for two",
+                    "id": "64700",
+                    "name": "Ambur Star Briyani",
+                    "cloudinaryImageId": "83650e6ca1465c58063a70ad22be4f28",
+                    "locality": "Sholinganallur",
+                    "areaName": "Sholinganallur",
+                    "costForTwo": "₹500 for two",
                     "cuisines": [
+                      "Indian",
                       "Chinese",
-                      "Asian",
-                      "Tibetan",
-                      "Desserts"
+                      "Arabian",
+                      "Continental"
                     ],
-                    "avgRating": 3.9,
-                    "parentId": "61955",
-                    "avgRatingString": "3.9",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                      "deliveryTime": 23,
-                      "lastMileTravel": 4.2,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "23 mins",
-                      "lastMileTravelString": "4.2 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 02:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "50% OFF",
-                      "subHeader": "UPTO ₹100"
-                    },
-                    "orderabilityCommunication": {
-                      "title": {
-                        
-                      },
-                      "subTitle": {
-                        
-                      },
-                      "message": {
-                        
-                      },
-                      "customIcon": {
-                        
-                      }
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/chinese-wok-old-mahabalipuram-road-omr-chennai-485445",
-                    "text": "RESTAURANT_MENU",
-                    "type": "WEBLINK"
-                  },
-                  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                },
-                {
-                  "info": {
-                    "id": "65303",
-                    "name": "The Red Box",
-                    "cloudinaryImageId": "e30g5rut9b9vvwjjveds",
-                    "locality": "Karapakkam",
-                    "areaName": "Karapakkam",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                      "Chinese"
-                    ],
-                    "avgRating": 3.9,
-                    "parentId": "1636",
-                    "avgRatingString": "3.9",
+                    "avgRating": 4.3,
+                    "parentId": "5455",
+                    "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 20,
-                      "lastMileTravel": 2.3,
+                      "deliveryTime": 16,
+                      "lastMileTravel": 2.5,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "20 mins",
-                      "lastMileTravelString": "2.3 km",
+                      "slaString": "16 mins",
+                      "lastMileTravelString": "2.5 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 00:00:00",
+                      "nextCloseTime": "2024-02-12 23:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -3741,10 +3759,10 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/the-red-box-karapakkam-chennai-65303",
+                    "link": "https://www.swiggy.com/restaurants/ambur-star-briyani-sholinganallur-chennai-64700",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -3752,139 +3770,33 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "681855",
-                    "name": "Louis Burger",
-                    "cloudinaryImageId": "a3535141ce7f8db939e999c2a7e06a0c",
-                    "locality": "MCN Nagar Extension",
-                    "areaName": "Thoraipakkam",
-                    "costForTwo": "₹600 for two",
-                    "cuisines": [
-                      "Burgers",
-                      "American",
-                      "Fast Food"
-                    ],
-                    "avgRating": 4.4,
-                    "parentId": "22485",
-                    "avgRatingString": "4.4",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                      "deliveryTime": 30,
-                      "lastMileTravel": 5.9,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "30 mins",
-                      "lastMileTravelString": "5.9 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                      "nextCloseTime": "2024-02-12 04:00:00",
-                      "opened": true
-                    },
-                    "badges": {
-                      "imageBadges": [
-                        {
-                          "imageId": "newg.png",
-                          "description": "Gourmet"
-                        }
-                      ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                      "entityBadges": {
-                        "imageBased": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "Gourmet",
-                                "imageId": "newg.png"
-                              }
-                            }
-                          ]
-                        },
-                        "textBased": {
-                          
-                        },
-                        "textExtendedBadges": {
-                          
-                        }
-                      }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                      "header": "₹125 OFF",
-                      "subHeader": "ABOVE ₹249",
-                      "discountTag": "FLAT DEAL"
-                    },
-                    "orderabilityCommunication": {
-                      "title": {
-                        
-                      },
-                      "subTitle": {
-                        
-                      },
-                      "message": {
-                        
-                      },
-                      "customIcon": {
-                        
-                      }
-                    },
-                    "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                        "lottie": {
-                          
-                        },
-                        "video": {
-                          
-                        }
-                      }
-                    },
-                    "reviewsSummary": {
-                      
-                    },
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {
-                      
-                    }
-                  },
-                  "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
-                  },
-                  "cta": {
-                    "link": "https://www.swiggy.com/restaurants/louis-burger-mcn-nagar-extension-thoraipakkam-chennai-681855",
-                    "text": "RESTAURANT_MENU",
-                    "type": "WEBLINK"
-                  },
-                  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                },
-                {
-                  "info": {
-                    "id": "558083",
+                    "id": "558031",
                     "name": "Geetham Veg restaurant",
-                    "cloudinaryImageId": "t8o1vgx93ztwz8qcmg7r",
-                    "locality": "Rajiv Gandhi Salai Navalur",
-                    "areaName": "OMR Navalur",
-                    "costForTwo": "₹250 for two",
+                    "cloudinaryImageId": "fxoofqi1isfil8oa7ix7",
+                    "locality": "OMR-Perungudi",
+                    "areaName": "Thuraipakkam (OMR)",
+                    "costForTwo": "₹450 for two",
                     "cuisines": [
                       "South Indian",
-                      "Sweets"
+                      "North Indian",
+                      "Sweets",
+                      "Beverages"
                     ],
-                    "avgRating": 4.5,
+                    "avgRating": 4.6,
                     "veg": true,
                     "parentId": "335557",
-                    "avgRatingString": "4.5",
+                    "avgRatingString": "4.6",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 29,
-                      "lastMileTravel": 6.2,
+                      "deliveryTime": 33,
+                      "lastMileTravel": 5.6,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "29 mins",
-                      "lastMileTravelString": "6.2 km",
+                      "slaString": "33 mins",
+                      "lastMileTravelString": "5.6 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:59:00",
+                      "nextCloseTime": "2024-02-12 22:45:00",
                       "opened": true
                     },
                     "badges": {
@@ -3957,10 +3869,10 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/geetham-veg-restaurant-rajiv-gandhi-salai-navalur-omr-navalur-chennai-558083",
+                    "link": "https://www.swiggy.com/restaurants/geetham-veg-restaurant-omr-perungudi-thuraipakkam-omr-chennai-558031",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -3991,7 +3903,7 @@ const cardInfo = [
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
+                      "nextCloseTime": "2024-02-13 01:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -4013,8 +3925,8 @@ const cardInfo = [
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "60% OFF",
-                      "subHeader": "UPTO ₹120"
+                      "header": "ITEMS",
+                      "subHeader": "AT ₹129"
                     },
                     "orderabilityCommunication": {
                       "title": {
@@ -4052,10 +3964,121 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
                     "link": "https://www.swiggy.com/restaurants/burger-king-nehru-nagar-omr-thoraipakam-chennai-808105",
+                    "text": "RESTAURANT_MENU",
+                    "type": "WEBLINK"
+                  },
+                  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                },
+                {
+                  "info": {
+                    "id": "444674",
+                    "name": "Andhra Gunpowder",
+                    "cloudinaryImageId": "o18xlrtaxapi2bq7rpoz",
+                    "locality": "Thoraipakkam",
+                    "areaName": "OMR Perungudi",
+                    "costForTwo": "₹350 for two",
+                    "cuisines": [
+                      "Andhra",
+                      "Biryani",
+                      "South Indian"
+                    ],
+                    "avgRating": 4.3,
+                    "parentId": "10496",
+                    "avgRatingString": "4.3",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                      "deliveryTime": 24,
+                      "lastMileTravel": 5.5,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "24 mins",
+                      "lastMileTravelString": "5.5 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 23:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      "textExtendedBadges": [
+                        {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      ]
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          "badgeObject": [
+                            {
+                              "attributes": {
+                                "description": "",
+                                "fontColor": "#7E808C",
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "₹100 OFF",
+                      "subHeader": "ABOVE ₹399",
+                      "discountTag": "FLAT DEAL"
+                    },
+                    "orderabilityCommunication": {
+                      "title": {
+                        
+                      },
+                      "subTitle": {
+                        
+                      },
+                      "message": {
+                        
+                      },
+                      "customIcon": {
+                        
+                      }
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/andhra-gunpowder-thoraipakkam-omr-perungudi-chennai-444674",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -4081,15 +4104,15 @@ const cardInfo = [
                     "avgRatingString": "4.2",
                     "totalRatingsString": "1K+",
                     "sla": {
-                      "deliveryTime": 20,
+                      "deliveryTime": 17,
                       "lastMileTravel": 2.6,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "20 mins",
+                      "slaString": "17 mins",
                       "lastMileTravelString": "2.6 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 00:00:00",
+                      "nextCloseTime": "2024-02-13 00:00:00",
                       "opened": true
                     },
                     "badges": {
@@ -4149,7 +4172,7 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
                     "link": "https://www.swiggy.com/restaurants/kfc-rajiv-gandhi-salai-sholinganallur-chennai-564242",
@@ -4160,43 +4183,34 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "104023",
-                    "name": "Zaitoon",
-                    "cloudinaryImageId": "xixwtmul8odryb9te9hb",
-                    "areaName": "Egatoor",
-                    "costForTwo": "₹500 for two",
+                    "id": "104680",
+                    "name": "Domino's Pizza",
+                    "cloudinaryImageId": "terdirvzcbmbwok1bwsu",
+                    "locality": "KAILASH OMR SHOLINAGANALLUR CHENNAI",
+                    "areaName": "Sholinganallur",
+                    "costForTwo": "₹400 for two",
                     "cuisines": [
-                      "Biryani",
-                      "Arabian",
-                      "Chinese",
-                      "Juices",
-                      "Mughlai",
-                      "Kebabs"
+                      "Pizzas",
+                      "Italian",
+                      "Pastas",
+                      "Desserts"
                     ],
                     "avgRating": 4.3,
-                    "parentId": "4555",
+                    "parentId": "2456",
                     "avgRatingString": "4.3",
-                    "totalRatingsString": "10K+",
+                    "totalRatingsString": "5K+",
                     "sla": {
-                      "deliveryTime": 35,
-                      "lastMileTravel": 7.7,
+                      "deliveryTime": 25,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "35 mins",
-                      "lastMileTravelString": "7.7 km",
+                      "slaString": "25 mins",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-12 01:00:00",
+                      "nextCloseTime": "2024-02-12 22:59:00",
                       "opened": true
                     },
                     "badges": {
-                      "textExtendedBadges": [
-                        {
-                          "iconId": "guiltfree/GF_Logo_android_3x",
-                          "shortDescription": "options available",
-                          "fontColor": "#7E808C"
-                        }
-                      ]
+                      
                     },
                     "isOpen": true,
                     "type": "F",
@@ -4209,22 +4223,13 @@ const cardInfo = [
                           
                         },
                         "textExtendedBadges": {
-                          "badgeObject": [
-                            {
-                              "attributes": {
-                                "description": "",
-                                "fontColor": "#7E808C",
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available"
-                              }
-                            }
-                          ]
+                          
                         }
                       }
                     },
                     "aggregatedDiscountInfoV3": {
-                      "header": "₹125 OFF",
-                      "subHeader": "ABOVE ₹249",
+                      "header": "₹150 OFF",
+                      "subHeader": "ABOVE ₹299",
                       "discountTag": "FLAT DEAL"
                     },
                     "orderabilityCommunication": {
@@ -4262,10 +4267,10 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/zaitoon-egatoor-chennai-104023",
+                    "link": "https://www.swiggy.com/restaurants/dominos-pizza-kailash-omr-sholinaganallur-sholinganallur-chennai-104680",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -4273,32 +4278,32 @@ const cardInfo = [
                 },
                 {
                   "info": {
-                    "id": "25881",
-                    "name": "Subway",
-                    "cloudinaryImageId": "63178e3e64d503a479f2a2048a474552",
-                    "locality": "Shollinganalur",
-                    "areaName": "Sholinganallur",
-                    "costForTwo": "₹350 for two",
+                    "id": "234986",
+                    "name": "McDonald's",
+                    "cloudinaryImageId": "03501c33ecb3a3105124441e541e6fe4",
+                    "locality": "Gire Thoraipakkam",
+                    "areaName": "Nehru Nagar",
+                    "costForTwo": "₹400 for two",
                     "cuisines": [
-                      "Salads",
-                      "Snacks",
-                      "Desserts",
-                      "Beverages"
+                      "Burgers",
+                      "Beverages",
+                      "Cafe",
+                      "Desserts"
                     ],
                     "avgRating": 4.3,
-                    "parentId": "2",
+                    "parentId": "630",
                     "avgRatingString": "4.3",
                     "totalRatingsString": "10K+",
                     "sla": {
-                      "deliveryTime": 16,
-                      "lastMileTravel": 0.9,
+                      "deliveryTime": 20,
+                      "lastMileTravel": 4.1,
                       "serviceability": "SERVICEABLE",
-                      "slaString": "16 mins",
-                      "lastMileTravelString": "0.9 km",
+                      "slaString": "20 mins",
+                      "lastMileTravelString": "4.1 km",
                       "iconType": "ICON_TYPE_EMPTY"
                     },
                     "availability": {
-                      "nextCloseTime": "2024-02-11 23:57:00",
+                      "nextCloseTime": "2024-02-13 02:45:00",
                       "opened": true
                     },
                     "badges": {
@@ -4311,9 +4316,6 @@ const cardInfo = [
                       ]
                     },
                     "isOpen": true,
-                    "aggregatedDiscountInfoV2": {
-                      
-                    },
                     "type": "F",
                     "badgesV2": {
                       "entityBadges": {
@@ -4336,6 +4338,11 @@ const cardInfo = [
                           ]
                         }
                       }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "10% OFF",
+                      "subHeader": "ABOVE ₹1000",
+                      "discountTag": "FLAT DEAL"
                     },
                     "orderabilityCommunication": {
                       "title": {
@@ -4372,10 +4379,107 @@ const cardInfo = [
                     }
                   },
                   "analytics": {
-                    "context": "seo-data-21e772b7-40ba-4757-badd-ad88bee7313f"
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
                   },
                   "cta": {
-                    "link": "https://www.swiggy.com/restaurants/subway-shollinganalur-sholinganallur-chennai-25881",
+                    "link": "https://www.swiggy.com/restaurants/mcdonalds-gire-thoraipakkam-nehru-nagar-chennai-234986",
+                    "text": "RESTAURANT_MENU",
+                    "type": "WEBLINK"
+                  },
+                  "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                },
+                {
+                  "info": {
+                    "id": "687152",
+                    "name": "Sizzling Curries The Kulambu Kadai",
+                    "cloudinaryImageId": "1ec840feb8a94155e4633ae32b4ac043",
+                    "locality": "Devaraj Nagar",
+                    "areaName": "Karapakkam",
+                    "costForTwo": "₹200 for two",
+                    "cuisines": [
+                      "South Indian",
+                      "Chinese",
+                      "Biryani",
+                      "Seafood",
+                      "North Indian"
+                    ],
+                    "avgRating": 4.4,
+                    "parentId": "189103",
+                    "avgRatingString": "4.4",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                      "deliveryTime": 32,
+                      "lastMileTravel": 2.1,
+                      "serviceability": "SERVICEABLE",
+                      "slaString": "32 mins",
+                      "lastMileTravelString": "2.1 km",
+                      "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                      "nextCloseTime": "2024-02-12 22:00:00",
+                      "opened": true
+                    },
+                    "badges": {
+                      
+                    },
+                    "isOpen": true,
+                    "type": "F",
+                    "badgesV2": {
+                      "entityBadges": {
+                        "imageBased": {
+                          
+                        },
+                        "textBased": {
+                          
+                        },
+                        "textExtendedBadges": {
+                          
+                        }
+                      }
+                    },
+                    "aggregatedDiscountInfoV3": {
+                      "header": "10% OFF",
+                      "subHeader": "UPTO ₹40"
+                    },
+                    "orderabilityCommunication": {
+                      "title": {
+                        
+                      },
+                      "subTitle": {
+                        
+                      },
+                      "message": {
+                        
+                      },
+                      "customIcon": {
+                        
+                      }
+                    },
+                    "differentiatedUi": {
+                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                      "differentiatedUiMediaDetails": {
+                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                        "lottie": {
+                          
+                        },
+                        "video": {
+                          
+                        }
+                      }
+                    },
+                    "reviewsSummary": {
+                      
+                    },
+                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                    "restaurantOfferPresentationInfo": {
+                      
+                    }
+                  },
+                  "analytics": {
+                    "context": "seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d"
+                  },
+                  "cta": {
+                    "link": "https://www.swiggy.com/restaurants/sizzling-curries-the-kulambu-kadai-devaraj-nagar-karapakkam-chennai-687152",
                     "text": "RESTAURANT_MENU",
                     "type": "WEBLINK"
                   },
@@ -7104,8 +7208,8 @@ const cardInfo = [
           "citySlug": "chennai",
           "lat": "12.89960",
           "lng": "80.22090",
-          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
-          "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-21e772b7-40ba-4757-badd-ad88bee7313f\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+          "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-3542abb8-7d3f-4e0f-8638-ad260f71b16d\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\"}}",
           "id": "meta_data",
           "metaInfo": {
             "pageType": "FOOD_HOME_PAGE",
@@ -7123,71 +7227,5 @@ const cardInfo = [
       }
     }
   ]
-console.log(cardInfo[4].card.card.gridElements.infoWithStyle.restaurants[0].info);
-const Header = ()=>{
-    return (
-        <div className="header">
-           <div className="logo-container">
-            <img src="https://upload.wikimedia.org/wikipedia/en/1/12/Swiggy_logo.svg"/>
-           </div>
-           <div className="nav-items">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact Us</li>
-                <li>Cart</li>
-            </ul>
-           </div>
-        </div>
-    )
-}
 
-const RestaurantCard = (props)=>{
-    const {cardData} = props;
-    const {avgRating,sla,cuisines,locality,costForTwo,name,cloudinaryImageId} = cardData?.info;
-    return(
-        <div className="restaurant-card">
-           
-            <img className="restaurant-logo" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId}/>
-            <h4>{name}</h4>
-            <div className="restaurant-info">
-                <div className="restaurant-info-1">
-             <h5>{avgRating} Rating </h5>
-             <h5>{sla.deliveryTime} minutes</h5>
-                </div>
-                <div className="restaurant-info-2">
-             <h5>{cuisines.join(', ')}</h5>
-                </div>
-             <div className="costForTwo">{costForTwo}</div>
-             <h5>{locality}</h5>
-            </div>
-        </div>
-    )
-}
-
-const Body = ()=>{
-    return (
-        <div className="body">
-            <div className="search">search</div>
-            <div className="restaurant-container">
-                <RestaurantCard cardData = {cardInfo[4].card.card.gridElements.infoWithStyle.restaurants[0]}/>
-                <RestaurantCard cardData = {cardInfo[4].card.card.gridElements.infoWithStyle.restaurants[1]}/>
-                <RestaurantCard cardData = {cardInfo[4].card.card.gridElements.infoWithStyle.restaurants[2]}/>
-            </div> 
-        </div>
-    );
-}
-
-const AppLayout = ()=>{
-    return (
-    <div className="main-layout">
-        <Header/>
-        <Body/>
-        //FOOTER
-    </div>
-    );
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<AppLayout/>);
+export default cardInfo;
