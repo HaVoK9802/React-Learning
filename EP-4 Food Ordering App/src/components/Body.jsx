@@ -1,32 +1,70 @@
 import RestaurantCard from "./RestaurantCard";
-import cardInfo from "../utils/mockData";
 import { useState,useRef,useEffect } from 'react';
-
+import { SWIGGY_API } from "../utils/constants";
+import Shimmer from "./Shimmer";
 
 // let toggle = {current:true}
 
 const Body = ()=>{
-    const [cardsData,setCardsData] = useState(cardInfo[4].card.card.gridElements.infoWithStyle.restaurants)
-    const toggle = useRef(true);//you can use useState also but 'toggle' data need not be rendered. Thus useRef 
+    const [cardsData,setCardsData] = useState([])
+    const toggle = useRef(false);//you can use useState also but 'toggle' data need not be rendered. Thus useRef 
+    // useEffect(()=>{
+    //   console.log("useEffect's callback() called")//then cb() of the useEffect is called after component has rendered.
+    // },[]);
+    console.log("Body")//first the component renders //render check
     useEffect(()=>{
-      console.log("useEffect's callback() called")//then cb() of the useEffect is called after component has rendered.
-    },[]);
-    console.log("Body")//first the component renders
+      fetchAndExtract();
+    },[])
+    
+    function fetchAndExtract(){
+        const data = fetch(SWIGGY_API);
+        data
+        .then((res)=>{
+            return res.json();
+        })
+        .then((res)=>{
+            // console.log(res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
+
+            setCardsData(res?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+            //change destructuring logic here
+        })
+
+    }
+    
+    const [inputValue,setInputValue] = useState("");
+    
+    //conditional rendering
+    if(cardsData.length===0){
+      return <Shimmer/>
+    }
 
     return (
         <div className="body">
-            <div className="search">search</div>
+            <div className="search">
+
+            <input type="text" className="search-bar" value={inputValue} 
+            onChange={(event)=>{
+              setInputValue(event.target.value)
+              }}/>
+
             <button onClick={()=>{
-              if(toggle.current===true){
-                toggle.current = false;
-                const filteredCardData = cardsData.filter((restaurant) =>{return restaurant.info.avgRating>=4.5})
+               const filteredCardData = cardsData.filter((restaurant)=>{
+                return restaurant.info.name.toLowerCase().includes(inputValue.toLowerCase());
+               })
+               setCardsData(filteredCardData);
+            }}>Search</button>
+            <button onClick={()=>{
+              if(!toggle.current){
+                toggle.current = !toggle.current;
+                const filteredCardData = cardsData.filter((restaurant) =>{return restaurant.info.avgRating>=4.2})
                 setCardsData(filteredCardData);
               }
               else{
-                toggle.current = true;
-                setCardsData(cardInfo[4].card.card.gridElements.infoWithStyle.restaurants);
+                toggle.current = !toggle.current;
+                fetchAndExtract();
               }
-            }}>Ratings 4.5+</button>
+            }}>Ratings 4.2+</button>
+            </div>
             <div className="restaurant-container">
                 {
                   cardsData.map((val)=>{

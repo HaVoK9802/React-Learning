@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel --open chrome index.html",
+    "start2": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
