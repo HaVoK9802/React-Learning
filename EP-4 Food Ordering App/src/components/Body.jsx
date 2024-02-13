@@ -1,13 +1,18 @@
 import RestaurantCard from "./RestaurantCard";
 import cardInfo from "../utils/mockData";
-import { useState } from 'react';
-import { useRef } from "react";
+import { useState,useRef,useEffect } from 'react';
+
 
 // let toggle = {current:true}
 
 const Body = ()=>{
     const [cardsData,setCardsData] = useState(cardInfo[4].card.card.gridElements.infoWithStyle.restaurants)
-    const toggle = useRef(true);
+    const toggle = useRef(true);//you can use useState also but 'toggle' data need not be rendered. Thus useRef 
+    useEffect(()=>{
+      console.log("useEffect's callback() called")//then cb() of the useEffect is called after component has rendered.
+    },[]);
+    console.log("Body")//first the component renders
+
     return (
         <div className="body">
             <div className="search">search</div>
