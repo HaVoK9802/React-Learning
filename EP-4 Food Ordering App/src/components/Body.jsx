@@ -32,9 +32,10 @@ const Body = ()=>{
     }
     
     const [inputValue,setInputValue] = useState("");
-    
+    const [filteredSearchCards,setFilteredSearchCards] = useState([]);
     //conditional rendering
     if(cardsData.length===0){
+
       return <Shimmer/>
     }
 
@@ -47,30 +48,40 @@ const Body = ()=>{
               setInputValue(event.target.value)
               }}/>
 
-            <button onClick={()=>{
+            <button className="search-button" onClick={()=>{
                const filteredCardData = cardsData.filter((restaurant)=>{
                 return restaurant.info.name.toLowerCase().includes(inputValue.toLowerCase());
                })
-               setCardsData(filteredCardData);
+               setFilteredSearchCards(filteredCardData);
             }}>Search</button>
-            <button onClick={()=>{
+            
+            <button className="search-button" onClick={()=>{
               if(!toggle.current){
                 toggle.current = !toggle.current;
-                const filteredCardData = cardsData.filter((restaurant) =>{return restaurant.info.avgRating>=4.2})
+                const filteredCardData = cardsData.filter((restaurant) =>{return restaurant.info.avgRating>=4.5})
                 setCardsData(filteredCardData);
               }
               else{
                 toggle.current = !toggle.current;
                 fetchAndExtract();
               }
-            }}>Ratings 4.2+</button>
+            }}>Ratings 4.5+</button>
             </div>
             <div className="restaurant-container">
-                {
-                  cardsData.map((val)=>{
-                    return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
-                  })
-                }
+             {
+            filteredSearchCards.length===0 ? 
+               
+                 cardsData.map((val)=>{
+                   return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
+                 })
+               
+                : 
+                filteredSearchCards.map((val)=>{
+                  return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
+                })
+            
+
+             }
             </div> 
         </div>
     );
