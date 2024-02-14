@@ -79,8 +79,7 @@ const Body = ()=>{
                 filteredSearchCards.map((val)=>{
                   return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
                 })
-            
-
+  
              }
             </div> 
         </div>
