@@ -7,7 +7,7 @@ const RestaurantPage=()=>{
 
 
     useEffect(()=>{
-        const data = fetch(SWIGGY_RESATURANT_MENU+)
+        const data = fetch(SWIGGY_RESATURANT_MENU) //+id
     },[]); 
 
     return (
