@@ -7,6 +7,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Cart from "./components/Cart";
 import Error from "./components/Error";
+import RestaurantCard from "./components/RestaurantCard";
 
 
 
@@ -47,7 +48,14 @@ const router = createBrowserRouter([
             path:'/cart',
             element:(<Cart></Cart>),
             errorElement:<Error/>
-        }]
+        },
+        {
+            path:'/restaurant/:resId',
+            element:(<RestaurantPage></RestaurantPage>),
+            errorElement:<Error/>
+        }
+        
+    ]
     }
 
 ])
