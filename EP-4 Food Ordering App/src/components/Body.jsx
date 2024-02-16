@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState,useRef,useEffect } from 'react';
 import { SWIGGY_API } from "../utils/constants";
+import {Link} from "react-router-dom"
 import Shimmer from "./Shimmer";
 
 // let toggle = {current:true}
@@ -72,12 +73,12 @@ const Body = ()=>{
             filteredSearchCards.length===0 ? 
                
                  cardsData.map((val)=>{
-                   return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
+                   return <Link to={"/restaurant/"+val.info.id}><RestaurantCard key={val.info.id} cardData={val}></RestaurantCard></Link>
                  })
                
                 : 
                 filteredSearchCards.map((val)=>{
-                  return <RestaurantCard key={val.info.id} cardData={val}></RestaurantCard>
+                  return <RestaurantCard key={val.info.id} cardData={val}><Link to={"/restaurant/"+val.info.id}></Link></RestaurantCard>
                 })
   
              }

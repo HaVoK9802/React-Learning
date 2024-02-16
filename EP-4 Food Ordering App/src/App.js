@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Cart from "./components/Cart";
 import Error from "./components/Error";
 import RestaurantCard from "./components/RestaurantCard";
+import RestaurantPage from "./components/RestaurantPage"
 
 
 
