@@ -7,6 +7,7 @@
     font-family: "Rubik", sans-serif;
     padding-left: 40px;
     padding-right: 40px;
+
     /* border: 1px solid black; */
 }
 .logo-container{
@@ -192,24 +193,33 @@
     align-items: center;
     width: 65%;
 }
-.res-details-left>h5{
+.res-details-left>p{
+    display: flex;
+    align-items: center;
+   
     color: #a1a1a1;
+    font-size: small;
 }
-.res-details-right>h5{
-    color: #a1a1a1;
+.res-details-right{
+    display: flex;
+     align-items: center;
+    color: #60b246;
 }
 .time-cost-vegToggle{
-    color: #a1a1a1;
+    /* color: #a1a1a1; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 65%;
 }
+.gap{
+    width: 20px;
+}
 .time-cost{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 22%;
+    width: 26%;
 }
 
 .tilte-container{
@@ -218,6 +228,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .title-name-accordion{
     display: flex;
@@ -236,11 +247,13 @@
     width: 95%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .subcategory-container>hr{
     width: 100%;
     border: 1px solid #e9e9e9;
     margin: 0px;
+
 
 }
 .subcategory-name-accordion{
@@ -256,4 +269,81 @@
    
     background-color: white;
     
+}
+.menu-overall{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.menu-overall>hr{
+    width: 100%;
+    border: 1px solid #e9e9e9;
+    margin: 0px;
+}
+.menu-item-container{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 130px;
+    /* border: 1px solid black; */
+}
+.menu-item-name-price-description{
+    width: 85%;
+    /* background-color: blue; */
+}
+.menu-item-name-price-description>h4{
+    margin: 5px;
+}
+.menu-item-name-price-description>h5{
+    margin: 0px;
+    margin-left: 10px;
+}
+.menu-item-name-price-description>p{
+    color: #a1a1a1;
+    font-size:smaller;
+    margin: 10px;
+}
+.menu-item-image-button{
+
+    width:15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.menu-item-image-button>img{
+    border-radius:5px;
+    height: 100px;
+    width: 120px;
+   object-fit: cover;
+   position: absolute;
+   background-color: rgb(31, 31, 31);
+   
+}
+.menu-item-image-button>button{
+    font-family: "Rubik", sans-serif;
+
+    height: 35px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+    border: 1px solid ;
+    border-radius:5px;
+    color: #60b246;
+    font-weight: bold;
+    box-shadow: 0 5 10px #a1a1a1;
+    font-size:medium;
+}
+
+.vegLogo{
+    padding: 0px;
+    margin-top: 12px;
+    margin-left: 4px;
+    height: 20px;
+    width: 20px;
 }

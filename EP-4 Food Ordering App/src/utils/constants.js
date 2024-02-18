@@ -5,3 +5,6 @@ export const SWIGGY_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=1
 //change swiggy api here
 
 export const SWIGGY_RESATURANT_MENU = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=13.0826802&lng=80.2707184&restaurantId="
+
+export const vegLogo = "https://upload.wikimedia.org/wikipedia/commons/b/b2/Veg_symbol.svg"
+export const nonVegLogo = "https://upload.wikimedia.org/wikipedia/commons/b/ba/Non_veg_symbol.svg"

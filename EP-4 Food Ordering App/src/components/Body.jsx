@@ -78,7 +78,7 @@ const Body = ()=>{
                
                 : 
                 filteredSearchCards.map((val)=>{
-                  return <RestaurantCard key={val.info.id} cardData={val}><Link to={"/restaurant/"+val.info.id}></Link></RestaurantCard>
+                  return <Link to={"/restaurant/"+val.info.id}><RestaurantCard key={val.info.id} cardData={val}></RestaurantCard></Link>
                 })
   
              }
