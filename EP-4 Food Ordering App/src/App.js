@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         }, 
         {
             path:'/about',
-            element:(<About></About>),
+            element:(<About p="hello"></About>),
             errorElement:<Error/>
         },
         {
